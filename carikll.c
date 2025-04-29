@@ -7,11 +7,12 @@ int main (){
 	scanf("%s %d", b, &a);
 
 	if(strcmp(b, "Segitiga")== 0) {
-		printf("%d", a*3);
+		printf("kll segitiga: %d", a*3);
 	}
 	else if(strcmp(b, "Persegi")==0){
-		printf("%d", a *4);
+		printf("kll persegi: %d", a *4);
 	}
+	
 	
 	return 0;
 }
